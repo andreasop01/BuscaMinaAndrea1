@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnBomba"
+        android:icon="@drawable/bomba"
+        android:title="Bomba"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mnInfo"
+        android:title="Informacion" />
+    <item
+        android:id="@+id/mnDificultad"
+        android:title="Dificultad" />
+    <item
+        android:id="@+id/mnReiniciar"
+        android:title="Reiniciar el juego" />
+</menu>
